@@ -1,8 +1,14 @@
 
 const Header = () => {
+    // let them="dark";
+    // const headerStyle = {
+    //     backgroundColor: them==="dark" ? "#333452" : "#fff"
+    // }
+    
+
     return (
         <>
-            <header>
+            <header style={headerStyle}>
                 <div className="container-header">
                     <nav className="nav">
                         <ul className="nav__ul">
